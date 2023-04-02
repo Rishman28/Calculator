@@ -1,0 +1,151 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, rgb(87, 212, 75), rgb(241, 226, 85),rgb(233, 104, 30));
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: inherit;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: 415%;
+    margin-left: 190%;
+}
+
+.wrapper{
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+border-radius: 16px;
+box-shadow: 0  4px 30px rgb(41, 38, 38);
+color: rgb(46, 40, 40);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+background: rgba(175, 167, 167, 0.459);
+border: 1px solid rgba(165, 154, 154, 0.438);
+flex-basis: 400px;
+height: 540px;
+padding: 20px 35px;
+}
+
+.screen{
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+background: rgba(255, 255, 255, 0.75);
+border: 1px solid rgba(255, 255, 255, 0.01);
+border-radius: 16px;
+box-shadow: 0  4px 30px rgb(41, 38, 38);
+color: rgb(46, 40, 40);
+font-size: 35px;
+overflow: auto;
+padding: 20px;
+text-align: right;
+width: 326px;
+}
+
+.cal-but-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.cal-butt{
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+background: rgb(255, 217, 3);
+border: 1px solid rgba(255, 255, 255, 0.01);
+border-radius: 16px;
+box-shadow: 0  4px 30px rgb(41, 38, 38);
+color: rgb(3, 3, 3);
+flex-basis: 20%;
+font-family: inherit;
+font-size: 24px;
+height: 65px;
+}
+
+.cal-butt:last-child{
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+background: rgba(255, 255, 255, 0.75);
+border: 1px solid rgba(255, 255, 255, 0.01);
+border-radius: 16px;
+box-shadow: 0  4px 30px rgb(41, 38, 38);
+color: rgb(243, 229, 229);
+background: rgb(0, 0, 0);
+}
+
+.cal-butt:last-child:hover{
+background-color: rgba(53, 52, 49, 0.788);
+}
+
+.cal-butt:hover{
+background-color: rgba(230, 208, 85, 0.945);
+}
+
+.double{
+backdrop-filter: blur(5.5px);
+-webkit-backdrop-filter: blur(5.5px);
+background: rgba(247, 114, 6, 0.863);
+border: 1px solid rgba(255, 255, 255, 0.01);
+border-radius: 16px;
+box-shadow: 0  4px 30px rgb(41, 38, 38);
+color: rgb(3, 3, 3);
+flex-basis: 20%;
+font-family: inherit;
+font-size: 24px;
+height: 65px;
+flex-basis: 47%;
+}
+
+.double:hover{
+    background-color: rgba(243, 67, 23, 0.884);
+}
+
+.triple{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgb(255, 217, 3);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0  4px 30px rgb(41, 38, 38);
+    color: rgb(3, 3, 3);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;    
+    flex-basis: 73%;
+}
+
+.triple:hover{
+    background-color: rgba(230, 208, 85, 0.945);
+}
+
+.arrow{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(247, 114, 6, 0.863);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0  4px 30px rgb(41, 38, 38);
+    color: rgb(0, 0, 0);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+
+.arrow:hover{
+    background-color: rgba(243, 67, 23, 0.884);
+}
